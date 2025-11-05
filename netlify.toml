@@ -1,6 +1,18 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "/mpstats"
+  to = "https://t.me/m/T5sJkLqiNzgy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mpstats/*"
+  to = "https://t.me/m/T5sJkLqiNzgy"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
