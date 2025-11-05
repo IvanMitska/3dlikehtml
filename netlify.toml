@@ -2,6 +2,12 @@
   publish = "."
 
 [[redirects]]
+  from = "/"
+  to = "https://t.me/m/T5sJkLqiNzgy"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/mpstats"
   to = "https://t.me/m/T5sJkLqiNzgy"
   status = 301
